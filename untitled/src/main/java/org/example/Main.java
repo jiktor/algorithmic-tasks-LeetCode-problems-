@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Main {
 	public static void main(String[] args) {
-		int[] arr = {1,2,4,3,7};
+		int[] arr = {1,4,3,7,2};
 		int target = 6;
 		System.out.println(Arrays.toString(Solution.twoSum(arr,target)));
 	}
