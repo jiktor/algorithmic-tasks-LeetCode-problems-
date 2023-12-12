@@ -14,8 +14,11 @@ class Solution {
 		while(x!=0){
 			int digit = x%10;
 			x/=10;
-			if((digit >= 8 && result >= 214748364)
-					||digit<=-8 && result <= -214748364){
+			if(result > max/10
+					|| (result == max/10 && digit>= max%10)){
+				return 0;
+			}else if(result < min/10
+					|| (result == min/10 && digit<= min%10)){
 				return 0;
 			}
 			result *= 10;
