@@ -6,6 +6,7 @@ import java.util.List;
 
 public class Main {
 	public static void main(String[] args) {
+		int [] arr = new int[]{1,23,2};
 
 		ListNode listNode1 = new ListNode(1,new ListNode(4,new ListNode(7,new ListNode(9,null))));
 		ListNode listNode2 = new ListNode(1,new ListNode(2,new ListNode(2,new ListNode(5,new ListNode(5,null)))));
